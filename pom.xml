@@ -58,14 +58,14 @@
     <repositories>
         <repository>
             <id>myMavenRepo.read</id>
-            <url>file:/Users/eobandop/.m2</url>
+            <url>file://Users/eobandop/.m2</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
             <id>myMavenRepo.write</id>
-            <url>file:/Users/eobandop/.m2</url>
+            <url>file://Users/eobandop/.m2</url>
         </repository>
     </distributionManagement>
 
