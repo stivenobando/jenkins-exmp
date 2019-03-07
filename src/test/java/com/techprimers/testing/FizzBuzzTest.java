@@ -15,7 +15,7 @@ class FizzBuzzTest {
     @Test
     public void testNumber() {
         String fizzBuzz = fB.play(1);
-        Assertions.assertEquals(fizzBuzz, "1");
+        Assertions.assertEquals(fizzBuzz, "10");
     }
 
     @DisplayName("Play FizzBuzz with number = 3")
